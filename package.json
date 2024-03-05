@@ -1,0 +1,14 @@
+{
+  "name": "org",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@nx/js": "18.0.7",
+    "nx": "18.0.7"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@4.1.1"
+}
