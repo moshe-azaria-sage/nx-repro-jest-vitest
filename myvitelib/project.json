@@ -26,6 +26,15 @@
         "reportsDirectory": "{projectRoot}/coverage"
       },
       "cache": true
+    },
+    "test:unit:ci": {
+      "executor": "@nx/vite:test",
+      "outputs": ["{projectRoot}/coverage"],
+      "options": {
+        "configFile": "{projectRoot}/vite.config.ts",
+        "reportsDirectory": "{projectRoot}/coverage"
+      },
+      "cache": true
     }
   },
   "tags": []

@@ -4,7 +4,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "nx affected --target=test --parallel=$(sysctl -n hw.physicalcpu)"
+    "test": "nx run-many --target=test --parallel=$(sysctl -n hw.physicalcpu)",
+    "test:unit:ci": "nx affected --target=test --parallel=$(sysctl -n hw.physicalcpu)"
   },
   "devDependencies": {
     "@nx/eslint": "18.0.7",

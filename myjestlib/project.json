@@ -13,6 +13,17 @@
         "tsConfig": "myjestlib/tsconfig.lib.json",
         "assets": ["myjestlib/*.md"]
       }
+    },
+    "test:unit:ci": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{projectRoot}/coverage"],
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      },
+      "cache": true
     }
   },
   "tags": []
