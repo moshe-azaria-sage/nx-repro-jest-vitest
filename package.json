@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "test": "nx affected --target=test --parallel=$(sysctl -n hw.physicalcpu)"
+  },
   "devDependencies": {
     "@nx/eslint": "18.0.7",
     "@nx/eslint-plugin": "18.0.7",

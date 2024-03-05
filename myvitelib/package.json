@@ -1,6 +1,9 @@
 {
   "name": "myvitelib",
   "version": "0.0.1",
+  "scripts": {
+    "test": "vitest run --coverage"
+  },
   "dependencies": {},
   "main": "./index.js",
   "module": "./index.mjs",
