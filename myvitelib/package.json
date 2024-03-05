@@ -4,7 +4,19 @@
   "scripts": {
     "test": "vitest run --coverage"
   },
+  "dependencies": {
+    "vite": "^5.0.12",
+    "vite-node": "1.2.0"
+  },
   "main": "./index.js",
   "module": "./index.mjs",
-  "typings": "./index.d.ts"
+  "typings": "./index.d.ts",
+  "devDependencies": {
+    "@nx/vite": "18.0.7",
+    "@vitest/coverage-v8": "^1.2.0",
+    "vite-plugin-dts": "^3.7.3",
+    "vite-plugin-eslint": "^1.8.1",
+    "vitest": "^1.2.0",
+    "vitest-dom": "^0.1.1"
+  }
 }

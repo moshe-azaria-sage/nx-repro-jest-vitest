@@ -13,6 +13,14 @@
         "tsConfig": "myjestlib/tsconfig.lib.json",
         "assets": ["myjestlib/*.md"]
       }
+    },"test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["{projectRoot}/coverage"],
+      "options": {
+        "configFile": "{projectRoot}/vite.config.ts",
+        "reportsDirectory": "{projectRoot}/coverage"
+      },
+      "cache": true
     }
   },
   "tags": []
