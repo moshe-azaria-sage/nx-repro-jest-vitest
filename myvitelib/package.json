@@ -4,7 +4,6 @@
   "scripts": {
     "test": "vitest run --coverage"
   },
-  "dependencies": {},
   "main": "./index.js",
   "module": "./index.mjs",
   "typings": "./index.d.ts"

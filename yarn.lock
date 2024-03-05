@@ -6786,6 +6786,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"myjestlib@workspace:myjestlib":
+  version: 0.0.0-use.local
+  resolution: "myjestlib@workspace:myjestlib"
+  dependencies:
+    tslib: "npm:^2.3.0"
+  languageName: unknown
+  linkType: soft
+
+"myvitelib@workspace:myvitelib":
+  version: 0.0.0-use.local
+  resolution: "myvitelib@workspace:myvitelib"
+  languageName: unknown
+  linkType: soft
+
 "nanoid@npm:^3.3.7":
   version: 3.3.7
   resolution: "nanoid@npm:3.3.7"

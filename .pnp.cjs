@@ -12,11 +12,21 @@ const RAW_RUNTIME_STATE =
     {\
       "name": "org",\
       "reference": "workspace:."\
+    },\
+    {\
+      "name": "myjestlib",\
+      "reference": "workspace:myjestlib"\
+    },\
+    {\
+      "name": "myvitelib",\
+      "reference": "workspace:myvitelib"\
     }\
   ],\
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
+    ["myjestlib", ["workspace:myjestlib"]],\
+    ["myvitelib", ["workspace:myvitelib"]],\
     ["org", ["workspace:."]]\
   ],\
   "fallbackPool": [\
@@ -9370,6 +9380,25 @@ const RAW_RUNTIME_STATE =
           ["ms", "npm:2.1.3"]\
         ],\
         "linkType": "HARD"\
+      }]\
+    ]],\
+    ["myjestlib", [\
+      ["workspace:myjestlib", {\
+        "packageLocation": "./myjestlib/",\
+        "packageDependencies": [\
+          ["myjestlib", "workspace:myjestlib"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["myvitelib", [\
+      ["workspace:myvitelib", {\
+        "packageLocation": "./myvitelib/",\
+        "packageDependencies": [\
+          ["myvitelib", "workspace:myvitelib"]\
+        ],\
+        "linkType": "SOFT"\
       }]\
     ]],\
     ["nanoid", [\
