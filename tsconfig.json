@@ -7,7 +7,9 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "noEmit": false,
-    "lib": ["ESNext"],
+    "lib": [
+      "ESNext"
+    ],
     "module": "es2022",
     "target": "es2020",
     "jsx": "react-jsx",
@@ -17,8 +19,17 @@
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
+    "paths": {
+      "myvitelib": [
+        "myvitelib/src/index.ts"
+      ]
+    }
   },
-  "exclude": ["node_modules", "dist", "config"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "config"
+  ],
   "ts-node": {
     "compilerOptions": {
       "module": "commonjs"
