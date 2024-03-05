@@ -1,5 +1,13 @@
 {
   "extends": "nx/presets/npm.json",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "nxCloudAccessToken": "NTQ3OWJhMzMtMzQzMi00ODIzLWJkMDMtNTgzMGE3M2FkOTUxfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "NTQ3OWJhMzMtMzQzMi00ODIzLWJkMDMtNTgzMGE3M2FkOTUxfHJlYWQtd3JpdGU=",
+  "plugins": [
+    {
+      "plugin": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ]
 }
