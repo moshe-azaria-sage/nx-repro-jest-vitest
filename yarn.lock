@@ -2266,7 +2266,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nx/jest@npm:18.0.7":
+"@nx/jest@npm:18.0.7, @nx/jest@npm:^18.0.7":
   version: 18.0.7
   resolution: "@nx/jest@npm:18.0.7"
   dependencies:
@@ -3058,7 +3058,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^29.4.0":
+"@types/jest@npm:^29.4.0, @types/jest@npm:^29.5.12":
   version: 29.5.12
   resolution: "@types/jest@npm:29.5.12"
   dependencies:
@@ -6348,7 +6348,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^29.4.1":
+"jest@npm:^29.4.1, jest@npm:^29.7.0":
   version: 29.7.0
   resolution: "jest@npm:29.7.0"
   dependencies:
@@ -7051,6 +7051,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "myjestlib@workspace:myjestlib"
   dependencies:
+    "@nx/jest": "npm:^18.0.7"
+    "@types/jest": "npm:^29.5.12"
+    jest: "npm:^29.7.0"
+    ts-jest: "npm:^29.1.2"
     tslib: "npm:^2.3.0"
   languageName: unknown
   linkType: soft
@@ -8538,7 +8542,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^29.1.0":
+"ts-jest@npm:^29.1.0, ts-jest@npm:^29.1.2":
   version: 29.1.2
   resolution: "ts-jest@npm:29.1.2"
   dependencies:

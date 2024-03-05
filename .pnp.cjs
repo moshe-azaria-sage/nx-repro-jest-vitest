@@ -9732,6 +9732,10 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./myjestlib/",\
         "packageDependencies": [\
           ["myjestlib", "workspace:myjestlib"],\
+          ["@nx/jest", "virtual:eeb20e6e25de8c06048f03337d6e6a160d307cd3d2e60f1b7d6da491c865105325fdb3a3989a976c3f6ce3f391ab66be8bd4fed8eee9c9a7aaaae8331689e939#npm:18.0.7"],\
+          ["@types/jest", "npm:29.5.12"],\
+          ["jest", "virtual:0738e4bc5da4177cb2aaf64dddff612ee3cc4dbb5e28273820e69384943893927d1b3fd2395abedbd6eceb9ea6888f3033812c6456faaed394b0e9bb69f42e06#npm:29.7.0"],\
+          ["ts-jest", "virtual:6209cae6fffd0a773f1f6a8971830f22b9920b21005229e70c7eabc89ed20fd7c8aedb7e982406ecfd360cb28d84eb9c9244570cb5321f65967782aa7edf26e2#npm:29.1.2"],\
           ["tslib", "npm:2.6.2"]\
         ],\
         "linkType": "SOFT"\
@@ -11418,6 +11422,47 @@ const RAW_RUNTIME_STATE =
           ["make-error", "npm:1.3.6"],\
           ["semver", "npm:7.6.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
+          ["yargs-parser", "npm:21.1.1"]\
+        ],\
+        "packagePeers": [\
+          "@babel/core",\
+          "@jest/types",\
+          "@types/babel-jest",\
+          "@types/babel__core",\
+          "@types/esbuild",\
+          "@types/jest",\
+          "@types/jest__types",\
+          "@types/typescript",\
+          "babel-jest",\
+          "esbuild",\
+          "jest",\
+          "typescript"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:6209cae6fffd0a773f1f6a8971830f22b9920b21005229e70c7eabc89ed20fd7c8aedb7e982406ecfd360cb28d84eb9c9244570cb5321f65967782aa7edf26e2#npm:29.1.2", {\
+        "packageLocation": "./.yarn/__virtual__/ts-jest-virtual-100acec669/0/cache/ts-jest-npm-29.1.2-22ab85b861-5e40e7b933.zip/node_modules/ts-jest/",\
+        "packageDependencies": [\
+          ["ts-jest", "virtual:6209cae6fffd0a773f1f6a8971830f22b9920b21005229e70c7eabc89ed20fd7c8aedb7e982406ecfd360cb28d84eb9c9244570cb5321f65967782aa7edf26e2#npm:29.1.2"],\
+          ["@babel/core", null],\
+          ["@jest/types", null],\
+          ["@types/babel-jest", null],\
+          ["@types/babel__core", null],\
+          ["@types/esbuild", null],\
+          ["@types/jest", "npm:29.5.12"],\
+          ["@types/jest__types", null],\
+          ["@types/typescript", null],\
+          ["babel-jest", null],\
+          ["bs-logger", "npm:0.2.6"],\
+          ["esbuild", null],\
+          ["fast-json-stable-stringify", "npm:2.1.0"],\
+          ["jest", "virtual:0738e4bc5da4177cb2aaf64dddff612ee3cc4dbb5e28273820e69384943893927d1b3fd2395abedbd6eceb9ea6888f3033812c6456faaed394b0e9bb69f42e06#npm:29.7.0"],\
+          ["jest-util", "npm:29.7.0"],\
+          ["json5", "npm:2.2.3"],\
+          ["lodash.memoize", "npm:4.1.2"],\
+          ["make-error", "npm:1.3.6"],\
+          ["semver", "npm:7.6.0"],\
+          ["typescript", null],\
           ["yargs-parser", "npm:21.1.1"]\
         ],\
         "packagePeers": [\
